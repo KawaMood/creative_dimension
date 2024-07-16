@@ -7,7 +7,7 @@ A survival-friendly and multiplayer-friendly way to quickly travel in your world
 
 # ⚠️ This data pack is now outdated
 
-**This version of the data pack is for MC 1.20 to 1.20.1.**  
+**This version of the data pack is for MC 1.20.3 to 1.20.4.**  
 If you're using a more recent of Minecraft, check other branches of the project, or the main one to get the most update version this data pack is available on. 
 
 Note that these versions don't contain all features most recent ones do, and aren't supported anymore.
