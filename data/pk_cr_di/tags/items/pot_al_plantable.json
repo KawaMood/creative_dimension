@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:bamboo",
+        "minecraft:birch_sapling",
+        "minecraft:crimson_fungus",
+        "minecraft:dark_oak_sapling",
+        "minecraft:oak_sapling",
+        "minecraft:warped_fungus"
+    ]
+}

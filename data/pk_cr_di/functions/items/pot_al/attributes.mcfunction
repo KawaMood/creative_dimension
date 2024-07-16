@@ -1,0 +1,4 @@
+#> pk_cr_di:items/pot_al/attributes
+# @writes pk:common temp.attributes data of item used to create a dynamic item into storage
+
+data modify storage pk:common temp.attributes set value {id:"minecraft:player_head",components:{"minecraft:custom_model_data":11130101,"minecraft:lore":['{"color":"dark_gray","italic":false,"text":"Pot\'al"}'],"minecraft:item_name":'{"color":"yellow","italic":false,"text":"Pot\'al"}',"minecraft:custom_data":{pk_data:{custom_block:1b,id:"pot_al",from:"creative_dimension",version:30000s}},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q0NWEyZTU1ZDY3YmEwM2Q4ZGMyMmJlNGI5ZGQ0MzJiYmI2ZDhiN2U1MDQ1N2FhNGQzOTc3ZTNiYjEyZWVhNTIifX19"}]}},count:1}

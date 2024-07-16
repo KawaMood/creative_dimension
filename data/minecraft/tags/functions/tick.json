@@ -1,3 +1,4 @@
 {
-    "values": ["pk_cr_di:base/tick"]
+    "replace": false,
+    "values": [{ "required": false, "id": "pk_cr_di:_main/tick" }]
 }

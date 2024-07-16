@@ -1,11 +1,9 @@
 {
-    "type": "minecraft:overworld",
+    "type": "pk_cr_di:creative_superflat",
     "generator": {
         "type": "minecraft:flat",
         "settings": {
-            "biome": "pk_crea:creative_plains",
-            "lakes": false,
-            "features": false,
+            "biome": "pk_cr_di:creative_plains",
             "layers": [
                 {
                     "block": "minecraft:bedrock",
@@ -24,9 +22,6 @@
                     "height": 1
                 }
             ],
-            "structures": {
-                "structures": {}
-            },
             "structure_overrides": []
         }
     }

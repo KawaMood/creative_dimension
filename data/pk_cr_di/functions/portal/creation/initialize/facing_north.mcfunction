@@ -1,1 +1,0 @@
-summon marker ~0.5 ~ ~0.5 {Tags:["pk_crea_portal","pk_crea_portal_facing_north","pk_amethyst_not_absorbed","pk_in_creation","pk_crea_current"]}

@@ -1,3 +1,4 @@
 {
-    "values": ["iris:setup/load", "pk_cr_di:base/load"]
+    "replace": false,
+    "values": [{ "required": false, "id": "pk_cr_di:_main/load" }]
 }

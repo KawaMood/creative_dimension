@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "count": {
+                                        "min": 1
+                                    },
+                                    "predicates": {
+                                        "minecraft:custom_data": "{pk_data:{custom_block:1b,from:\"creative_dimension\"}}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "pk_cr_di:events/player/inventory_changed/equiped_custom_block"
+    }
+}
