@@ -1,0 +1,102 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -3,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:budding_amethyst"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 3,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:budding_amethyst"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetZ": -3,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:budding_amethyst"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetZ": 3,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:budding_amethyst"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -2,
+        "offsetZ": -2,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:budding_amethyst"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -2,
+        "offsetZ": 2,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:budding_amethyst"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 2,
+        "offsetZ": -2,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:budding_amethyst"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 2,
+        "offsetZ": 2,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:budding_amethyst"
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "location": {
+            "dimension": "pk_cr_di:creative_superflat"
+        }
+    }
+}

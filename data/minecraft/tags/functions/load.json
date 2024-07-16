@@ -1,0 +1,6 @@
+{
+    "values": [
+        "iris:setup/load",
+        "pk_cr_di:base/load"
+    ]
+}

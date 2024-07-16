@@ -1,0 +1,24 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "offsetZ": -1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:lodestone"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetZ": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:lodestone"
+                ]
+            }
+        }
+    }
+]
