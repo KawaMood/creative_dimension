@@ -10,4 +10,4 @@
 #           The data pack's current literal version
 
 scoreboard players set $pk.cr_di.version pk.value 30001
-data modify storage pk:common installed_datapacks[{id:"creative_dimension"}].version set value "3.0.1"
+data modify storage pk:common installed_datapacks[{id:"creative_dimension"}].version set value "3.0.0=1"
