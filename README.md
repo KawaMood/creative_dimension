@@ -1,8 +1,16 @@
-# **Creative Dimension**
+# **Creative Dimension V.1.2.3**
 
 **A superflat creative dimension for survival worlds**
 
 This data pack adds a superflat creative dimension, that can be safely used in survival worlds.
+
+# ⚠️ This data pack is now outdated
+
+**This version of the data pack is for MC 1.20 to 1.20.1.**  
+If you're using a more recent of Minecraft, check other branches of the project, or the main one to get the most update version this data pack is available on. 
+
+Note that these versions don't contain all features most recent ones do, and aren't supported anymore.
+If you're about to use them on a modified version of Minecraft (with plugins or mods), the data pack could not work as intended.
 
 # 🪄Introduction
 ## What is Creative Dimension?
