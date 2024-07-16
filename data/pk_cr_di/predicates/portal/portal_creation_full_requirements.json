@@ -4,16 +4,16 @@
         "terms": [
             {
                 "condition": "minecraft:reference",
-                "name": "pk_cr_di:portal/lodestone_west_east"
+                "name": "pk_crea:portal/lodestone_west_east"
             },
             {
                 "condition": "minecraft:reference",
-                "name": "pk_cr_di:portal/lodestone_south_north"
+                "name": "pk_crea:portal/lodestone_south_north"
             }
         ]
     },
     {
         "condition": "minecraft:reference",
-        "name": "pk_cr_di:portal/amethyst_blocks_circle"
+        "name": "pk_crea:portal/amethyst_blocks_circle"
     }
 ]

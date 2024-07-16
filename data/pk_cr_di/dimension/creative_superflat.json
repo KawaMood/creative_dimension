@@ -3,7 +3,7 @@
     "generator": {
         "type": "minecraft:flat",
         "settings": {
-            "biome": "pk_cr_di:creative_plains",
+            "biome": "pk_crea:creative_plains",
             "lakes": false,
             "features": false,
             "layers": [

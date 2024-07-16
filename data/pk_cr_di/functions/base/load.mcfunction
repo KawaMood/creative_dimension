@@ -28,7 +28,7 @@ scoreboard players add %pk_disable_dream_world_player_heads_creation PKValue 0
 scoreboard players add %pk_disable_dream_world_forced_gamemode PKValue 0
 
 # Initialize players and marker link ID
-scoreboard players add %pk_cr_di_link_id PKDWId 0
+scoreboard players add %pk_crea_link_id PKDWId 0
 
 # Forceloaded chunk (following Phi datapack standards)
 forceload add -30000000 1600

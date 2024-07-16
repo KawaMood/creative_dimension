@@ -5,13 +5,12 @@
             "conditions": {
                 "location": [
                     {
-                        "condition": "minecraft:block_state_property",
-                        "block": "minecraft:crimson_fungus"
-                    },
-                    {
                         "condition": "minecraft:location_check",
                         "predicate": {
-                            "dimension": "minecraft:overworld"
+                            "dimension": "minecraft:overworld",
+                            "block": {
+                                "blocks": ["minecraft:crimson_fungus"]
+                            }
                         }
                     }
                 ]
@@ -19,6 +18,6 @@
         }
     },
     "rewards": {
-        "function": "pk_cr_di:portal/creation/starter_block/player_placed_block"
+        "function": "pk_crea:portal/creation/starter_block/player_placed_block"
     }
 }
