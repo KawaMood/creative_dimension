@@ -1,10 +1,10 @@
-# **Creative Dimension**
+# **Creative Dimension V.3.0.1**
 
 **A superflat creative dimension for survival worlds**
 
 This data pack adds a superflat creative dimension, that can be safely used in survival worlds.
 
-# ??Introduction
+# 🪄Introduction
 ## What is Creative Dimension?
 
 Minecraft survival players ofently want to pre-desing their buildings or ideas in creative mode before creating them in their survival world. If you own a survival server and want to collaborate on such project, it would require another server or a multiverse plugin to provide two different worlds, with splited inventories and a specific gamemode.
@@ -15,7 +15,7 @@ _Of course, you can also use this data pack in single player._
 
 ## Installing details
 
-?? Disclaimer: It is important to not that this data pack use worldgen features, that are still considered as **experimental** by Mojang. Installing it is easy, but removing it is harder. Check the "Uninstall" section further for more information.
+⚠️ Disclaimer: It is important to not that this data pack use worldgen features, that are still considered as **experimental** by Mojang. Installing it is easy, but removing it is harder. Check the "Uninstall" section further for more information.
 
 After having placed the data pack in the `/datapacks` folder of your world, you would need to **restart** the server (or world in single player) completly. As it involves worldgen features, a single `/reload` won't be enough to install it correctly.
 
@@ -50,7 +50,7 @@ Creative portals actually have a single block's that matters: the light block, i
 
 Removing this light block will disable the relative portal. You can then remove the rest of the structure, and it will be like it has never existed.
 
-# ?? Uninstall
+# 🧹 Uninstall
 
 As Creative Dimension involves worldgen, it is quite technical to uninstall it properly. If you're not confident with the following process, you can join the [Discord server](https://discord.com/invite/w8s9XWgN6v) and ask for support with uninstallation on your world.
 
@@ -79,7 +79,7 @@ So you will need to use [NBTExplorer](https://github.com/jaquadro/NBTExplorer) t
 
 I know this is quite technical, but sadly, worldgen is still considered as an experimental feature, and Mojang didn't provide a way to more directly get rid of unused dimensions yet.
 
-# ?? Report an issue
+# 🪠 Report an issue
 
 If you encountered an issue with this data pack, preferably join the [Discord server](https://discord.com/invite/w8s9XWgN6v), and open a post in the dedicated **#data-pack-issues** channel to describe your problem. Please, don't forget to provide all necessary informations including:
 - The Minecraft version you're using.
@@ -90,7 +90,7 @@ If you encountered an issue with this data pack, preferably join the [Discord se
 - A clear description of your issue, and a way to reproduce it.
 - If necessary, a video or a screenshot of the issue in game.
 
-# ?? Other links
+# 📌 Other links
 
 Thank you for using Creative Dimension! It makes me happy to know people are enjoying it.
 If you want to support its development and the development of other data packs, you can support me on my other social networks: 
