@@ -6,7 +6,7 @@ This data pack adds a superflat creative dimension, that can be safely used in s
 
 # ⚠️ This data pack is now outdated
 
-**This version of the data pack is for MC 1.20 to 1.20.1.**  
+**This version of the data pack is for MC 1.20 to 1.20.2.**  
 If you're using a more recent of Minecraft, check other branches of the project, or the main one to get the most update version this data pack is available on. 
 
 Note that these versions don't contain all features most recent ones do, and aren't supported anymore.
