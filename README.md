@@ -5,7 +5,7 @@
 Craft and place Waystones on your points of interest.  
 A survival-friendly and multiplayer-friendly way to quickly travel in your world!
 
-# ?? This data pack is now outdated
+# ⚠️ This data pack is now outdated
 
 **This version of the data pack is for MC 1.20 to 1.20.1.**  
 If you're using a more recent of Minecraft, check other branches of the project, or the main one to get the most update version this data pack is available on. 
@@ -13,7 +13,7 @@ If you're using a more recent of Minecraft, check other branches of the project,
 Note that these versions don't contain all features most recent ones do, and aren't supported anymore.
 If you're about to use them on a modified version of Minecraft (with plugins or mods), the data pack could not work as intended.
 
-# ??Introduction
+# 🪄Introduction
 ## What is Waystones?
 
 Waystones is a data pack inspired by [BlayTheNinth's famous Waystones mod](https://www.curseforge.com/minecraft/mc-mods/waystones).
@@ -40,7 +40,7 @@ By left-clicking on a waystone from the list, you will be teleported to it.
 
 I recommend you to [watch the featured video](https://www.youtube.com/watch?v=wcYG_fns7LU) for better explanations and examples.
 
-# ??Attributes
+# 🔖Attributes
 
 In the toolbar of the waystones GUI, you can see two buttons in the middle. If you're a waystone manager or the owner of the current waystone, these buttons will allow you to edit their attributes. Other players won't of course be able to edit its attributes.
 
@@ -60,7 +60,7 @@ The second button concerns the waystone's protection. There are two available va
 - By default, the **protection** is **disabled**. In this mode, the waystone can be destroyed by anyone, including natural events, like explosions from creepers or TNT.  
 - If **enabled**, only the owner of the waystone and waystones managers will be able to remove it.  
 
-# ?? Manager Role
+# 💼 Manager Role
 
 The **manager** role allows you to bypass most of restrictive rules introduced by waystones mechanics or settings.
 It also allows you to see and edit every waystones, even private ones that you don't own.
@@ -75,7 +75,7 @@ Example - Granting the manager role to the player named "Bob"
 /tag Bob add pk.waystones.manager
 ```
 
-# ??Settings
+# ⚙️Settings
 
 <details>
 <summary>Blacklisted Dimensions</summary>
@@ -185,7 +185,7 @@ You can **enable** or **disable** the current state of the permission using thes
 ```
 </details>
 
-# ?? Other Commands
+# 🧰 Other Commands
 
 The data pack also provides some handy commands. Some of them are usable by both operators and regular players.
 
@@ -209,9 +209,9 @@ Using these following commands, if the value is set on **1**, waystones' locatio
 /trigger pk.waystones.player.setting.hide_coordinates set 0
 ```
 
-# ?? Uninstall
+# 🧹 Uninstall
 
-?? **This process can be inconsistent on V.2, especially on modified version of Minecraft.**
+⚠️ **This process can be inconsistent on V.2, especially on modified version of Minecraft.**
 
 Waystones comes with an automatic uninstallation process. Running it will:
 - Remove all waystones that have been placed in your world, in every dimensions
@@ -225,7 +225,7 @@ The command to start the uninstalling process is the following one:
 /function pk_waystones:base/uninstall/start
 ```
 
-# ? F.A.Q
+# ❓ F.A.Q
 
 <details>
 <summary>Do I need to install a resources pack?</summary>
@@ -250,9 +250,9 @@ Waystones can stay locked if their block container didn't update their blockstat
 ```
 </details>
 
-# ?? Report an issue
+# 🪠 Report an issue
 
-?? **Except for bugs, this version of the data pack is not likely to be supported anymore.**
+⚠️ **Except for bugs, this version of the data pack is not likely to be supported anymore.**
 
 If you encountered an issue with this data pack, preferably join the [Discord server](https://discord.com/invite/w8s9XWgN6v), and open a post in the dedicated **#data-pack-issues** channel to describe your problem. Please, don't forget to provide all necessary informations including:
 - The Minecraft version you're using.
@@ -265,7 +265,7 @@ If you encountered an issue with this data pack, preferably join the [Discord se
 
 Before doing that, please read the F.A.Q. section just above. The issue you're facing may be a common one, and a way to fix it may already have been provided in it.
 
-# ?? Other links
+# 📌 Other links
 
 Thank you for using Waystones! It makes me happy to know people are enjoying it.
 If you want to support its development and the development of other data packs, you can support me on my other social networks: 
