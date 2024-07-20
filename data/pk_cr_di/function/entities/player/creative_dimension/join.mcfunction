@@ -4,6 +4,9 @@
 #
 # @context a player at @s
 
+# Clear potential remaning effects
+effect clear @s slow_falling
+
 # Mark player
 tag @s add pk.cr_di.in_creative_dimension
 

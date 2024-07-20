@@ -44,6 +44,7 @@ scoreboard objectives add pk.cr_di.leave_game custom:leave_game
 # ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
 # Settings:
 # ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+# $pk.cr_di.settings.disable_portal_use pk.value | 0 (default) : Enable | 1 : Disable access to creative dimension (portal use)
 
 # ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
 # Updates:
