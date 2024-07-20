@@ -6,6 +6,9 @@
 #   @return player leaved the creative portal
 execute positioned ~ ~-2 ~ align xyz unless entity @e[type=marker,tag=pk.cr_di.feature.portal.controller,dy=1] run return run function pk_cr_di:entities/player/creative_portal/exit
 
+# @return if portals use has been disabled
+execute if score $pk.cr_di.settings.disable_portals_use pk.value matches 1 run return fail
+
 # @continue Scores
 #   @return player standed long enough
 execute if entity @s[scores={pk.cr_di.in_creative_portal.timer=80}] run return run function pk_cr_di:entities/player/creative_portal/initiate
