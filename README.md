@@ -50,6 +50,19 @@ Creative portals actually have a single block's that matters: the light block, i
 
 Removing this light block will disable the relative portal. You can then remove the rest of the structure, and it will be like it has never existed.
 
+# ⚙️Settings
+
+<details>
+<summary>Disable creative portals use</summary>
+
+If enabled, players won't be able to use creative portals anymore. It is useful if you want to temporary restrict the access to the Creative Dimension. You can **enable**, **disable** or **get** the current state of the setting using these following commands respectively:
+```
+/function pk_cr_di:settings/disable_portals_use/true
+/function pk_cr_di:settings/disable_portals_use/false
+/function pk_cr_di:settings/disable_portals_use/get
+```
+</details>
+
 # 🧹 Uninstall
 
 As Creative Dimension involves worldgen, it is quite technical to uninstall it properly. If you're not confident with the following process, you can join the [Discord server](https://discord.com/invite/w8s9XWgN6v) and ask for support with uninstallation on your world.
