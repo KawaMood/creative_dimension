@@ -1,4 +1,4 @@
-execute store result score %pk_temp PKValue run data get entity @e[type=marker,tag=pk_crea_current_player_data,limit=1] data.XpLevels
+execute store result score %pk_temp PKValue run data get entity @e[type=marker,tag=pk_cr_di_current_player_data,limit=1] data.XpLevels
 
 execute if score %pk_temp PKValue matches 1073741824.. run experience add @s 1073741824 levels
 execute if score %pk_temp PKValue matches 1073741824.. run scoreboard players remove %pk_temp PKValue 1073741824

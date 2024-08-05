@@ -6,7 +6,7 @@
             "entity": "this",
             "predicate": {
                 "location": {
-                    "dimension": "pk_crea:creative_superflat"
+                    "dimension": "pk_cr_di:creative_superflat"
                 }
             }
         }

@@ -2,7 +2,7 @@
     "condition": "minecraft:location_check",
     "predicate": {
         "block": {
-            "tag": "pk_crea:portal_starter"
+            "tag": "pk_cr_di:portal_starter"
         }
     }
 }

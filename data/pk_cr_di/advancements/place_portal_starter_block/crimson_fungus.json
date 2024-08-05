@@ -18,6 +18,6 @@
         }
     },
     "rewards": {
-        "function": "pk_crea:portal/creation/starter_block/player_placed_block"
+        "function": "pk_cr_di:portal/creation/starter_block/player_placed_block"
     }
 }
