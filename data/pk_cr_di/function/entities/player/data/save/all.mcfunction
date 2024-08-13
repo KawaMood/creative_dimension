@@ -9,6 +9,7 @@
 # @context a player
 
 # Prepare data
+$data modify storage pk:common temp.subpath set value $(subpath)
 data modify storage pk:common temp.player_data set value {active_effects:[],inventory:[],ender_items:[],gamemode:"survival"}
 data modify storage pk:common temp.player set from entity @s {}
 
@@ -17,6 +18,7 @@ data modify storage pk:common temp.player set from entity @s {}
 data modify storage pk:common temp.player_data.uuid set from storage pk:common temp.player.UUID
 #   Active effects
 data modify storage pk:common temp.player_data.active_effects set from storage pk:common temp.player.active_effects
+#execute if data storage pk:common temp{subpath:"creative_dimension"} run data remove storage pk:common temp.player_data.active_effects[{id:"minecraft:slow_falling"}]
 #   Inventory
 data modify storage pk:common temp.player_data.inventory set from storage pk:common temp.player.Inventory
 #   Ender items
@@ -35,6 +37,6 @@ execute if entity @s[gamemode=spectator] run data modify storage pk:common temp.
 # Update database
 data remove storage pk:common temp.update_args
 data modify storage pk:common temp.update_args.uuid set from storage pk:common temp.player_data.uuid
-$data modify storage pk:common temp.update_args.subpath set value $(subpath)
+data modify storage pk:common temp.update_args.subpath set from storage pk:common temp.subpath
 data modify storage pk:common temp.update_args.player_data set from storage pk:common temp.player_data
 function pk_cr_di:entities/player/data/update with storage pk:common temp.update_args

@@ -4,15 +4,15 @@
 #
 # @context a player at @s
 
-# Clear potential remaning effects
-effect clear @s slow_falling
-
 # Mark player
 tag @s add pk.cr_di.in_creative_dimension
 
 # Swap data
 function pk_cr_di:entities/player/data/save/all {subpath:"regular_dimension"}
 function pk_cr_di:entities/player/data/restore/all {subpath:"creative_dimension"}
+
+# Clear potential remaning effects
+effect clear @s slow_falling
 
 # Force gamemode to creative
 gamemode creative @s

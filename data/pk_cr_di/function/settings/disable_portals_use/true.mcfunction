@@ -1,4 +1,4 @@
-#> pk_waystones:settings/hide_coordinates/true
+#> pk_cr_di:settings/hide_coordinates/true
 
 # Cancel process if setting is already set on the attempted value
 execute if score $pk.cr_di.settings.disable_portals_use pk.value matches 1 run tellraw @s [{"text":"Setting \"","color":"red"},{"text":"Disable Portals Use","color":"yellow"},{"text":"\" is already set to ","color":"red"},{"text":"true","color":"yellow"}]

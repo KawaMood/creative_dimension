@@ -11,6 +11,3 @@ function pk_cr_di:entities/player/data/restore/inventory/single {slot_type:"armo
 
 # Offhand
 function pk_cr_di:entities/player/data/restore/inventory/single {slot_type:"weapon.offhand",slot:-106b,subpath:"inventory"}
-
-# Ender items
-function pk_cr_di:entities/player/data/restore/inventory/ender_items/start
