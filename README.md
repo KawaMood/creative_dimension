@@ -31,7 +31,7 @@ After having placed the data pack in the `/datapacks` folder of your world, you 
 
 After you installed the data pack, you will need to create a portal following this structure scheme with 8 **amethysts blocks**, 2 **lodestones** and 1 **starter plant** among: oak sapling, dark oak sapling, birch sapling, crimson fungus or warped fungus.
 
-![portal structure](https://mc.kawamood.com/datapacks/PK_Creative_Dimension/medias/portal_structure.png)
+![portal structure](https://mc.kawamood.com/datapacks/PK_Creative_Dimension/medias/portal_structure.png?v=0)
 
 Be sure to place the plant in the middle as last, otherwise the structure won't trigger.
 Placing it will run a short animation, after what the portal will be ready to use.
