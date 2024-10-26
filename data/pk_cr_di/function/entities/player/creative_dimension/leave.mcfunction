@@ -10,6 +10,9 @@ tag @s remove pk.cr_di.in_creative_dimension
 # Clear effect
 effect clear @s slow_falling
 
+# Clear items entities around the player (to prevent exploit issue on servers)
+kill @e[type=item,distance=..10]
+
 # Reset beds use warning
 advancement revoke @s only pk_cr_di:events/inventory_changed/get_bed_in_creative_dimension
 
