@@ -1,11 +1,11 @@
 {
     "id": "pk.creative_dimension",
     "pack": {
-        "pack_format": 48,
+        "pack_format": 57,
         "supported_formats": {
-            "min_inclusive": 48,
-            "max_inclusive": 48
+            "min_inclusive": 57,
+            "max_inclusive": 57
         },
-        "description": "KawaMood's Creative Dimension V.3.1.2 for Minecraft 1.21"
+        "description": "KawaMood's Creative Dimension V.3.1.2 for Minecraft 1.21.3"
     }
 }

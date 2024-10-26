@@ -2,12 +2,8 @@
     "type": "minecraft:crafting_shaped",
     "pattern": ["C C", "CCC", "PPP"],
     "key": {
-        "C": {
-            "item": "minecraft:crying_obsidian"
-        },
-        "P": {
-            "item": "minecraft:phantom_membrane"
-        }
+        "C": "minecraft:crying_obsidian",
+        "P": "minecraft:phantom_membrane"
     },
     "result": {
         "id": "minecraft:player_head",
