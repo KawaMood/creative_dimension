@@ -1,10 +1,11 @@
-# **Creative Dimension V.3.0.1**
+# **Creative Dimension**
 
 **A superflat creative dimension for survival worlds**
 
 This data pack adds a superflat creative dimension, that can be safely used in survival worlds.
 
 # 🪄Introduction
+
 ## What is Creative Dimension?
 
 Minecraft survival players ofently want to pre-desing their buildings or ideas in creative mode before creating them in their survival world. If you own a survival server and want to collaborate on such project, it would require another server or a multiverse plugin to provide two different worlds, with splited inventories and a specific gamemode.
@@ -21,28 +22,29 @@ After having placed the data pack in the `/datapacks` folder of your world, you 
 
 ## How to join the Creative Dimension?
 
-After you installed the data pack, you will be able to create a new type of block : the **Pot'al** (which is a pot, that creates a portal). The recipe of this block is the following one: 
+After you installed the data pack, you will be able to create a new type of block : the **Pot'al** (which is a pot, that creates a portal). The recipe of this block is the following one:
 
 ![the pot'al recipe](https://cdn.modrinth.com/data/cached_images/87b6998a5e0ae0d02c86f8d54dc1612c90481d76.png)
 
-In this pot'al, you can place a plant that will grow into a **Creative Portal**. 
+In this pot'al, you can place a plant that will grow into a **Creative Portal**.
 The pot accepts different types of plants: oak sappling, birch sappling, dark oak sappling, warped fungus and crimson fungus.
 
-Each plant would grow into their respective variant of portal. 
+Each plant would grow into their respective variant of portal.
 
 <details>
 <summary>See render of each portal</summary>
 
 ![creative portal variants](https://cdn.modrinth.com/data/cached_images/1fb7929baa1189c6875aab936c702c32bd48963d.png)
+
 </details>
 
 Planting them will run a short animation, after what the portal will be ready to use.
-You just need to stand in the middle of it (where the light block is), and the portal will teleport your to the creative dimension. 
+You just need to stand in the middle of it (where the light block is), and the portal will teleport your to the creative dimension.
 
-## How to exit the creative dimension? 
+## How to exit the creative dimension?
 
 In order to return to reality, you will need to consume a **slow falling** potion. You can also splash one on yourself. The goal is just to get the effect.  
-After some seconds, you will be teleported back to the vanilla dimension. 
+After some seconds, you will be teleported back to the vanilla dimension.
 
 ## How to customize or disable a portal?
 
@@ -56,11 +58,13 @@ Removing this light block will disable the relative portal. You can then remove 
 <summary>Disable creative portals use</summary>
 
 If enabled, players won't be able to use creative portals anymore. It is useful if you want to temporary restrict the access to the Creative Dimension. You can **enable**, **disable** or **get** the current state of the setting using these following commands respectively:
+
 ```
 /function pk_cr_di:settings/disable_portals_use/true
 /function pk_cr_di:settings/disable_portals_use/false
 /function pk_cr_di:settings/disable_portals_use/get
 ```
+
 </details>
 
 # 🧹 Uninstall
@@ -72,12 +76,14 @@ You can also watch the dedicated part of the [official video](https://youtu.be/m
 First, be sure that no player currently are or previously leaved the server while being in the creative dimension.
 
 As my other data packs, Creative Dimension comes with an automatic uninstallation process to uninstall its content (excluding worldgen content). Running it will:
+
 - Remove all pot'als from each dimension
 - Disable all creative portals from each dimension (it won't remove the structure itself)
 - Remove all scores and storage specific to the Creative Dimension data pack
 - If there is no more KawaMood data packs installed, also remove all common scores and storages
 
-The command to start the uninstalling process is the following one: 
+The command to start the uninstalling process is the following one:
+
 ```
 /function pk_cr_di:cmd/uninstall
 ```
@@ -87,7 +93,7 @@ If you stop the unsintalling process at this step, then the dimension would stil
 If you wish to remove it completely from your world, here is the difficult part:  
 You would first need to remove the data pack from the `/datapacks` folder of your world, but the dimension would still exists. In order to remove it, you need to go (from the root of your world) in the `/dimensions` folder and remove the folder `pk_cr_di`.
 
-But Minecraft will still keeps the dimension references in the `level.dat` file of your world. 
+But Minecraft will still keeps the dimension references in the `level.dat` file of your world.
 So you will need to use [NBTExplorer](https://github.com/jaquadro/NBTExplorer) to remove each pk_cr_di:creative_superflat occurences from the `level.dat` file.
 
 I know this is quite technical, but sadly, worldgen is still considered as an experimental feature, and Mojang didn't provide a way to more directly get rid of unused dimensions yet.
@@ -95,6 +101,7 @@ I know this is quite technical, but sadly, worldgen is still considered as an ex
 # 🪠 Report an issue
 
 If you encountered an issue with this data pack, preferably join the [Discord server](https://discord.com/invite/w8s9XWgN6v), and open a post in the dedicated **#data-pack-issues** channel to describe your problem. Please, don't forget to provide all necessary informations including:
+
 - The Minecraft version you're using.
 - The version of the concerned data pack you're using.
 - If you're using any modified version like Forge, Paper or Spigot.
@@ -106,7 +113,7 @@ If you encountered an issue with this data pack, preferably join the [Discord se
 # 📌 Other links
 
 Thank you for using Creative Dimension! It makes me happy to know people are enjoying it.
-If you want to support its development and the development of other data packs, you can support me on my other social networks: 
+If you want to support its development and the development of other data packs, you can support me on my other social networks:
 
 - [Youtube](https://www.youtube.com/@KawaMood/)
 - [Planet Minecraft](https://www.planetminecraft.com/member/kawamood/)
