@@ -1,16 +1,16 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:enter_block",
-            "conditions": {
-                "block": "minecraft:light",
-                "state": {
-                    "level": "15"
-                }
-            }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:light",
+        "state": {
+          "level": "15"
         }
-    },
-    "rewards": {
-        "function": "pk_cr_di:events/player/enter_block/light_15/_run"
+      }
     }
+  },
+  "rewards": {
+    "function": "pk_cr_di:events/player/enter_block/light_15/_run"
+  }
 }

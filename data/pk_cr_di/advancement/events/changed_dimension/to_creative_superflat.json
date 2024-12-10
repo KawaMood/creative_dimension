@@ -1,13 +1,13 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:changed_dimension",
-            "conditions": {
-                "to": "pk_cr_di:creative_superflat"
-            }
-        }
-    },
-    "rewards": {
-        "function": "pk_cr_di:events/player/changed_dimension/to_creative_superflat"
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "pk_cr_di:creative_superflat"
+      }
     }
+  },
+  "rewards": {
+    "function": "pk_cr_di:events/player/changed_dimension/to_creative_superflat"
+  }
 }

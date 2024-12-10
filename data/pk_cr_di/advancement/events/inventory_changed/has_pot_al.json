@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "predicates": {
+              "minecraft:custom_data": "{pk_data:{custom_block:1b,id:\"pot_al\",from:\"creative_dimension\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pk_cr_di:events/player/inventory_changed/has_pot_al"
+  }
+}

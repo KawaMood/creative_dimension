@@ -1,25 +1,25 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "dimension": "pk_cr_di:creative_superflat"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "items": "#minecraft:beds"
-                    }
-                ]
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "pk_cr_di:creative_superflat"
             }
-        }
-    },
-    "rewards": {
-        "function": "pk_cr_di:events/player/inventory_changed/get_bed_in_creative_dimension"
+          }
+        ],
+        "items": [
+          {
+            "items": "#minecraft:beds"
+          }
+        ]
+      }
     }
+  },
+  "rewards": {
+    "function": "pk_cr_di:events/player/inventory_changed/get_bed_in_creative_dimension"
+  }
 }

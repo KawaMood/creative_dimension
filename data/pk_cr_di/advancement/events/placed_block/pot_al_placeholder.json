@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "predicates": {
-                                "minecraft:custom_data": "{pk_data:{custom_block:1b,id:\"pot_al\",from:\"creative_dimension\"}}"
-                            }
-                        }
-                    }
-                ]
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:custom_data": "{pk_data:{custom_block:1b,id:\"pot_al\",from:\"creative_dimension\"}}"
+              }
             }
-        }
-    },
-    "rewards": {
-        "function": "pk_cr_di:events/player/placed_block/pot_al_placeholder"
+          }
+        ]
+      }
     }
+  },
+  "rewards": {
+    "function": "pk_cr_di:events/player/placed_block/pot_al_placeholder"
+  }
 }
