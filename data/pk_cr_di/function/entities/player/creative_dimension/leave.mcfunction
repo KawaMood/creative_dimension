@@ -10,7 +10,7 @@ tag @s remove pk.cr_di.in_creative_dimension
 # Clear effect
 effect clear @s slow_falling
 
-# Clear items entities around the player (to prevent exploit issue on servers)
+# Clear item entities around the player (to prevent exploit issues on servers)
 kill @e[type=item,distance=..10]
 
 # Reset beds use warning
