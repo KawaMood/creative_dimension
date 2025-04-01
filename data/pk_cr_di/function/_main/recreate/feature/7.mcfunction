@@ -17,7 +17,7 @@ $function pk_cr_di:_main/recreate/feature/single/$(feature_id)
 execute if score $recreate.is_forceloaded pk.temp matches 0 run forceload remove ~ ~
 
 # Logs
-tellraw @a[tag=pk.recreate] [{"text": "Recreated \"","color": "gray"},{"nbt":"recreate.feature_args.feature_id","storage":"pk:common"},{"text": "\" at ["},{"nbt":"recreate.feature_single.location.x","storage":"pk:common"},{"text": ","},{"nbt":"recreate.feature_single.location.y","storage":"pk:common"},{"text": ","},{"nbt":"recreate.feature_single.location.z","storage":"pk:common"},{"text": "] in "},{"nbt":"recreate.feature_single.location.dimension","storage":"pk:common"}]
+tellraw @a[tag=pk.recreate] [{text: "Recreated \"",color: "gray"},{nbt:"recreate.feature_args.feature_id",storage:"pk:common"},{text: "\" at ["},{nbt:"recreate.feature_single.location.x",storage:"pk:common"},{text: ","},{nbt:"recreate.feature_single.location.y",storage:"pk:common"},{text: ","},{nbt:"recreate.feature_single.location.z",storage:"pk:common"},{text: "] in "},{nbt:"recreate.feature_single.location.dimension",storage:"pk:common"}]
 
 # Recursive call
 function pk_cr_di:_main/recreate/feature/recursive

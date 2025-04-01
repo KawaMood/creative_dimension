@@ -1,7 +1,7 @@
 #> pk_cr_di:_main/uninstall/start
 
 # @return Check if an uninstalling process is already running
-execute if score $uninstall pk.value matches 1 run return run tellraw @s {"text": "An uninstalling process is already running","color":"red"}
+execute if score $uninstall pk.value matches 1 run return run tellraw @s {text: "An uninstalling process is already running",color:"red"}
 
 # Set uninstalling process score
 scoreboard players set $uninstall pk.value 1

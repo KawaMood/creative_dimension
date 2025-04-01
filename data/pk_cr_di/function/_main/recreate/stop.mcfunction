@@ -7,4 +7,4 @@ scoreboard players set $recreate pk.value 0
 tag @s remove pk.recreate
 
 # Logs
-tellraw @s [{"text": "Recreated all \"","color": "yellow"},{"nbt":"recreate.feature_args.feature_id","storage":"pk:common"},{"text": "\" features successfully"}]
+tellraw @s [{text: "Recreated all \"",color: "yellow"},{nbt:"recreate.feature_args.feature_id",storage:"pk:common"},{text: "\" features successfully"}]

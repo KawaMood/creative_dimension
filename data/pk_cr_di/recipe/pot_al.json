@@ -12,9 +12,13 @@
         "strings": ["pk_cr_di:pot_al"]
       },
       "minecraft:lore": [
-        "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Pot'al\"}"
+        { "color": "dark_gray", "italic": false, "text": "Pot'al" }
       ],
-      "minecraft:item_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Pot'al\"}",
+      "minecraft:item_name": {
+        "color": "yellow",
+        "italic": false,
+        "text": "Pot'al"
+      },
       "minecraft:custom_data": {
         "pk_data": {
           "custom_block": 1,
