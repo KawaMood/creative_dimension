@@ -21,6 +21,7 @@ data modify storage pk:common temp.player_data.active_effects set from storage p
 #execute if data storage pk:common temp{subpath:"creative_dimension"} run data remove storage pk:common temp.player_data.active_effects[{id:"minecraft:slow_falling"}]
 #   Inventory
 data modify storage pk:common temp.player_data.inventory set from storage pk:common temp.player.Inventory
+data modify storage pk:common temp.player_data.equipment set from storage pk:common temp.player.equipment
 #   Ender items
 data modify storage pk:common temp.player_data.ender_items set from storage pk:common temp.player.EnderItems
 #   Health
