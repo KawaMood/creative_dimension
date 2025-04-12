@@ -11,20 +11,19 @@
       "minecraft:custom_model_data": {
         "strings": ["pk_cr_di:pot_al"]
       },
-      "minecraft:lore": [
-        { "color": "dark_gray", "italic": false, "text": "Pot'al" }
-      ],
+      "minecraft:lore": [{ "color": "dark_gray", "italic": false, "text": "Pot'al" }],
       "minecraft:item_name": {
         "color": "yellow",
         "italic": false,
         "text": "Pot'al"
       },
+      "!minecraft:equippable": {},
       "minecraft:custom_data": {
         "pk_data": {
           "custom_block": 1,
           "id": "pot_al",
           "from": "creative_dimension",
-          "version": 30103
+          "version": 30106
         }
       },
       "minecraft:profile": {
