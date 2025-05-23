@@ -5,7 +5,7 @@
 #       UUID of the player to update
 #   subpath: string
 #       Subpath to store the data in from the entry matching the player's UUID
-#   player_data: entry
+#   player_data: compound
 #       Player data
 
 $data modify storage pk:cr_di database.players[{uuid:$(uuid)}].$(subpath) merge value $(player_data)

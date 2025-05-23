@@ -10,7 +10,7 @@
 
 # Prepare data
 $data modify storage pk:common temp.subpath set value $(subpath)
-data modify storage pk:common temp.player_data set value {active_effects:[],inventory:[],ender_items:[],gamemode:"survival"}
+data modify storage pk:common temp.player_data set value {active_effects:[],inventory:[],ender_items:[],equipment:{},gamemode:"survival"}
 data modify storage pk:common temp.player set from entity @s {}
 
 # Store only retained data from player
@@ -36,8 +36,15 @@ execute if entity @s[gamemode=adventure] run data modify storage pk:common temp.
 execute if entity @s[gamemode=spectator] run data modify storage pk:common temp.player_data.gamemode set value "spectator" 
 
 # Update database
+
 data remove storage pk:common temp.update_args
 data modify storage pk:common temp.update_args.uuid set from storage pk:common temp.player_data.uuid
 data modify storage pk:common temp.update_args.subpath set from storage pk:common temp.subpath
+#   Strictly udpate equipment
+data modify storage pk:common temp.update_strict_args set from storage pk:common temp.update_args
+data modify storage pk:common temp.update_strict_args.value set from storage pk:common temp.player_data.equipment
+data modify storage pk:common temp.update_strict_args.data_path set value "equipment"
+function pk_cr_di:entities/player/data/update_strict with storage pk:common temp.update_strict_args
+#   Merge other data
 data modify storage pk:common temp.update_args.player_data set from storage pk:common temp.player_data
 function pk_cr_di:entities/player/data/update with storage pk:common temp.update_args

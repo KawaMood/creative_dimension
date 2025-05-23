@@ -9,5 +9,5 @@
 #       version: string
 #           The data pack's current literal version
 
-scoreboard players set $pk.cr_di.version pk.value 30106
-data modify storage pk:common installed_datapacks[{id:"creative_dimension"}].version set value "3.1.6"
+scoreboard players set $pk.cr_di.version pk.value 30107
+data modify storage pk:common installed_datapacks[{id:"creative_dimension"}].version set value "3.1.7"

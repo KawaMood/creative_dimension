@@ -22,10 +22,5 @@ function pk_cr_di:entities/player/data/search with storage pk:common temp.search
 execute unless data storage pk:common temp.player_data.location run data modify storage pk:common temp.player_data.location set value {dimension:"overworld",x:0,y:64,z:0}
 function pk_cr_di:entities/player/data/restore/location with storage pk:common temp.player_data.location
 
-# Check if the player ends up in a creative portals
-tag @s add pk.current.player
-execute align xyz positioned ~ ~-2 ~ as @e[type=marker,tag=pk.cr_di.feature.portal.controller,dy=1] at @s run function pk_cr_di:entities/player/creative_dimension/prepare_leave/offset
-tag @s remove pk.current.player
-
 # Animations 
 execute at @s run playsound block.portal.travel master @a[x=0] ~ ~ ~ 0.4 1.8
