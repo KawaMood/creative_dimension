@@ -6,8 +6,8 @@ This data pack adds a superflat creative dimension, that can be safely used in s
 
 > [!WARNING]  
 > **This presentation concerns the latest available version of the data pack for Minecraft 1.21.5 to 1.21.8.**  
-> To find the most recent version, check the [main](https://github.com/KawaMood/painting_table) branch.  
-> For other versions, check other [branches](https://github.com/KawaMood/painting_table/branches/all).
+> To find the most recent version, check the [main](https://github.com/KawaMood/creative_dimension) branch.  
+> For other versions, check other [branches](https://github.com/KawaMood/creative_dimension/branches/all).
 
 # 🪄Introduction
 
