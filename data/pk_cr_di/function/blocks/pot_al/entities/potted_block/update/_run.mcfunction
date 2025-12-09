@@ -9,7 +9,7 @@
 
 # Update entity's block states
 #   No item
-data modify entity @s block_state set value {}
+data remove entity @s block_state
 execute unless data storage pk:common temp.pot_al.item.id run return 1
 #   @continue from item
 data modify entity @s block_state.Name set from storage pk:common temp.pot_al.item.id

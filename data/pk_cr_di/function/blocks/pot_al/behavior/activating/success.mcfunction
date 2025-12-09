@@ -22,8 +22,9 @@ data modify storage pk:common constructor_args.owner set from storage pk:common 
 #   facing
 data modify storage pk:common constructor_args.facing set from storage pk:common temp.pot_al.facing
 #   variant
-execute if data storage pk:common temp.pot_al.item{id:"minecraft:oak_sapling"} run data modify storage pk:common constructor_args.variant set value "oak"
+data modify storage pk:common constructor_args.variant set value "oak"
 execute if data storage pk:common temp.pot_al.item{id:"minecraft:birch_sapling"} run data modify storage pk:common constructor_args.variant set value "birch"
+execute if data storage pk:common temp.pot_al.item{id:"minecraft:pale_oak_sapling"} run data modify storage pk:common constructor_args.variant set value "birch"
 execute if data storage pk:common temp.pot_al.item{id:"minecraft:dark_oak_sapling"} run data modify storage pk:common constructor_args.variant set value "dark_oak"
 execute if data storage pk:common temp.pot_al.item{id:"minecraft:warped_fungus"} run data modify storage pk:common constructor_args.variant set value "warped"
 execute if data storage pk:common temp.pot_al.item{id:"minecraft:crimson_fungus"} run data modify storage pk:common constructor_args.variant set value "crimson"
