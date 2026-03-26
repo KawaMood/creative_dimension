@@ -1,6 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["C C", "CCC", "PPP"],
+  "pattern": [
+    "C C",
+    "CCC",
+    "PPP"
+  ],
   "key": {
     "C": "minecraft:crying_obsidian",
     "P": "minecraft:phantom_membrane"
@@ -9,9 +13,17 @@
     "id": "minecraft:player_head",
     "components": {
       "minecraft:custom_model_data": {
-        "strings": ["pk_cr_di:pot_al"]
+        "strings": [
+          "pk_cr_di:pot_al"
+        ]
       },
-      "minecraft:lore": [{ "color": "dark_gray", "italic": false, "text": "Pot'al" }],
+      "minecraft:lore": [
+        {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Pot'al"
+        }
+      ],
       "minecraft:item_name": {
         "color": "yellow",
         "italic": false,
