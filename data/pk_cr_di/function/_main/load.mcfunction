@@ -42,11 +42,6 @@ scoreboard objectives add pk.cr_di.in_creative_portal.timer dummy
 scoreboard objectives add pk.cr_di.leave_game custom:leave_game
 
 # ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
-# Settings:
-# ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-# $pk.cr_di.settings.disable_portal_use pk.value | 0 (default) : Enable | 1 : Disable access to creative dimension (portal use)
-
-# ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
 # Updates:
 # ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 #   Define the data pack's version and run (an) updating process(es) (if needed)

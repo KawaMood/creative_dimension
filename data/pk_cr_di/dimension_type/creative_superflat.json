@@ -40,7 +40,8 @@
     "has_ceiling": false,
     "has_ender_dragon_fight": false,
     "has_skylight": true,
-    "has_fixed_time": true,
+    "has_fixed_time": false,
+    "default_clock": "pk_cr_di:creative_superflat",
     "height": 384,
     "infiniburn": "#minecraft:infiniburn_overworld",
     "logical_height": 384,
@@ -51,5 +52,5 @@
         "max_inclusive": 7,
         "min_inclusive": 0
     },
-    "timelines": "#minecraft:in_overworld"
+    "timelines": "pk_cr_di:creative_superflat"
 }
