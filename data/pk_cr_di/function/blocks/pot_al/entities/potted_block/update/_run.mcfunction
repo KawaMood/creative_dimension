@@ -12,7 +12,7 @@
 data remove entity @s block_state
 execute unless data storage pk:common temp.pot_al.item.id run return 1
 #   @continue from item
-data modify entity @s block_state.Name set from storage pk:common temp.pot_al.item.id
+data modify entity @s block_state set from storage pk:common temp.pot_al.item.id
 
 # Apply specific properties
 #   Oak sapling

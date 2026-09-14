@@ -11,5 +11,5 @@
 
 execute unless score $pk.cr_di.version pk.value matches 30300.. run function pk_cr_di:_main/update/versions/3.3.0
 
-scoreboard players set $pk.cr_di.version pk.value 30300
-data modify storage pk:common installed_datapacks[{id:"creative_dimension"}].version set value "3.3.0"
+scoreboard players set $pk.cr_di.version pk.value 30400
+data modify storage pk:common installed_datapacks[{id:"creative_dimension"}].version set value "3.4.0"

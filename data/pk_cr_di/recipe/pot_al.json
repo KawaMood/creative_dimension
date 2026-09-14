@@ -10,8 +10,20 @@
     "P": "minecraft:phantom_membrane"
   },
   "result": {
-    "id": "minecraft:player_head",
+    "id": "minecraft:glow_item_frame",
     "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:glow_item_frame",
+        "Invisible": true,
+        "Tags": [
+          "pk.cr_di",
+          "pk.cr_di.block_placer"
+        ],
+        "data": {
+          "id": "pot_al"
+        }
+      },
+      "minecraft:item_model": "minecraft:player_head",
       "minecraft:custom_model_data": {
         "strings": [
           "pk_cr_di:pot_al"
@@ -35,7 +47,7 @@
           "custom_block": 1,
           "id": "pot_al",
           "from": "creative_dimension",
-          "version": 30106
+          "version": 30400
         }
       },
       "minecraft:profile": {

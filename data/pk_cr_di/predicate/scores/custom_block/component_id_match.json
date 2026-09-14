@@ -1,26 +1,16 @@
 {
-    "condition": "minecraft:value_check",
-    "value": {
-        "type": "minecraft:score",
-        "target": "this",
-        "score": "pk.custom_block.component.id"
+  "type": "minecraft:int_value_check",
+  "value": {
+    "type": "minecraft:score",
+    "target": "this",
+    "score": "pk.custom_block.component.id"
+  },
+  "test": {
+    "type": "minecraft:score",
+    "target": {
+      "type": "minecraft:fixed",
+      "name": "$temp"
     },
-    "range": {
-        "min": {
-            "type": "minecraft:score",
-            "target": {
-                "type": "minecraft:fixed",
-                "name": "$temp"
-            },
-            "score": "pk.custom_block.component.id"
-        },
-        "max": {
-            "type": "minecraft:score",
-            "target": {
-                "type": "minecraft:fixed",
-                "name": "$temp"
-            },
-            "score": "pk.custom_block.component.id"
-        }
-    }
+    "score": "pk.custom_block.component.id"
+  }
 }

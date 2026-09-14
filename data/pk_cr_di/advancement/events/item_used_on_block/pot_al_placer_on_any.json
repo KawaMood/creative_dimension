@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:glow_item_frame"
+            ],
+            "predicates": {
+              "custom_data": {
+                "pk_data": {
+                  "custom_block": 1,
+                  "id": "pot_al",
+                  "from": "creative_dimension"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pk_cr_di:events/player/item_used_on_block/pot_al_placer_on_any/run"
+  }
+}

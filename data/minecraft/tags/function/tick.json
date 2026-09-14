@@ -1,4 +1,9 @@
 {
   "replace": false,
-  "values": [{ "required": false, "id": "pk_cr_di:_main/tick" }]
+  "values": [
+    {
+      "required": false,
+      "id": "pk_cr_di:_main/tick"
+    }
+  ]
 }

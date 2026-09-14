@@ -1,7 +1,7 @@
 {
   "pack": {
-    "min_format": [107, 1],
-    "max_format": [107, 1],
-    "description": "KawaMood's Creative Dimension V.3.3.0"
+    "min_format": [121, 0],
+    "max_format": [121, 0],
+    "description": "KawaMood's Creative Dimension V.3.4.0"
   }
 }

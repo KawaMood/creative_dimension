@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:player_head",
+            "items": "#pk_cr_di:placer",
             "predicates": {
               "minecraft:custom_data": "{pk_data:{custom_block:1b,id:\"pot_al\",from:\"creative_dimension\"}}"
             }
