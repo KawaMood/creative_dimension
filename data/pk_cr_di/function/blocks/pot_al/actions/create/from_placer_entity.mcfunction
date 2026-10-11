@@ -4,6 +4,9 @@
 #
 # @context player who placed the placeholder of the custom block, at the placeholder
 
+#   If the block isn't replaceable
+execute unless block ~ ~ ~ #replaceable run return run function pk_cr_di:blocks/pot_al/actions/create/cancel
+
 # Create data
 #   Set pot_al data in: storage pk:common output.pot_al
 function pk_cr_di:blocks/pot_al/data/create/_run
